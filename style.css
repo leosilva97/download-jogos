@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+html, body{
+    min-width: 100vh;
+    background-color: rgba(100, 89, 255, 0.825);
+    font-family: 'Sotke', serif;
+    background-image:url("imagens/wallpaper004.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: black;
+}
+
+header > h1 {
+    font-family: 'Stoke', serif;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+main{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: rgba(0, 0, 0, 0.623);
+    line-height: 1.5em;
+    padding-left: 30px;
+    
+}
+
+main > h2{
+    font-family: 'Stoke', serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+section.jogos{
+    margin: 2px 0px 2px 2px;
+    display: inline-block;
+    text-align: center;
+}
+
+section > img {
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 25px;
+}
+
+a{ 
+    background-color: black;
+    border-radius: 3px 3px 3px 3px;
+}
+
+p a{
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+p a:hover{
+    text-decoration: underline;
+   
+}
+
+section > p {
+    color: bisque;
+}
+
+footer{
+    background-color: black;
+    font-family: 'Stoke', serif;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;;
+}
